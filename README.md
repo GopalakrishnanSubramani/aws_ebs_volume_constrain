@@ -1,4 +1,4 @@
-# Restrict EBS volume type using AWS Lambda function and CloudWatch 💵💳
+# 💵 Restrict EBS volume type using AWS Lambda function and CloudWatch 💳
 
 ## 🎯 PROJECT DESCRIPTION
 
@@ -12,7 +12,7 @@ For example, we Trigger a Lambda function when an Amazon Elastic Block Store (EB
 
 ## 🏁 Technology Stack
 
-* [AWS](https://pytorch.org/)
+* [AWS](https://aws.amazon.com/)
 * [Python](https://python.org/)
 
 
@@ -37,19 +37,19 @@ Then “test” the function to ensure it running correctly
 Configure the rule in AWS Event bridge which trigger the Lambda function by following below steps
 
 <p align="center">
-  <img width="800" height="600" src="imgs/screen01.jpg">
+  <img width="800" height="400" src="imgs/screen01.jpg">
 </p>
 
 <p align="center">
-  <img width="800" height="600" src="imgs/screen02.jpg">
+  <img width="800" height="400" src="imgs/screen02.jpg">
 </p>
 
 <p align="center">
-  <img width="800" height="600" src="imgs/screen03.jpg">
+  <img width="800" height="400" src="imgs/screen03.jpg">
 </p>
 
 <p align="center">
-  <img width="800" height="600" src="imgs/screen04.jpg">
+  <img width="800" height="400" src="imgs/screen04.jpg">
 </p>
 
 ## 🎯 EBS
@@ -103,7 +103,7 @@ def lambda_handler(event, context):
 Once the above said steps done, create a new EBS volume with the General Purpose SSD (gp2). Watch out after some time it will changes to gp3 type as follows
 
 <p align="center">
-  <img width="800" height="600" src="imgs/screen06.jpg">
+  <img width="800" height="400" src="imgs/screen06.jpg">
 </p>
      
 ## 📜 LICENSE
