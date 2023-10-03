@@ -7,7 +7,7 @@ We use AWS cloud watch in combination with AWS Lambda to govern the resources ac
 For example, we Trigger a Lambda function when an Amazon Elastic Block Store (EBS) volume is created. We use Amazon CloudWatch Events. CloudWatch Events that allows us to monitor and respond to EBS volumes that are of type GP2 and convert them to type GP3.
 
 <p align="center">
-  <img width="800" height="600" src="imgs/project_flow.jpg">
+  <img width="1000" height="600" src="imgs/project_flow.jpg">
 </p>
 
 ## 🏁 Technology Stack
@@ -57,7 +57,7 @@ Configure the rule in AWS Event bridge which trigger the Lambda function by foll
 In volumes create new volume , then check the log groups in CloudWatch which triggers the lambda function 
 
 <p align="center">
-  <img width="800" height="600" src="imgs/screen05.jpg">
+  <img width="800" height="400" src="imgs/screen05.jpg">
 </p>
 
 ## 🎯 Python Code for Lambda Function
