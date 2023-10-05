@@ -1,6 +1,6 @@
 # 💵 Restrict EBS volume type using AWS Lambda function and CloudWatch 💳
 
-## 🎯 PROJECT DESCRIPTION
+## 🎯 PROJECT DESCRIPTION.
 
 As a Cloud Engineering team we take care of the AWS environment and make sure it is in compliance with the organizational policies.
 We use AWS cloud watch in combination with AWS Lambda to govern the resources according to the policies.
